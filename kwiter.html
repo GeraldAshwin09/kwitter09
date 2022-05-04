@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Kwitter Chat App</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body id="bg" >
+        <button id="logout_b" onclick="logout1();" class="glyphicon glyphicon-log-out btn btn-warning">Logout</button>
+        <center>
+        <h1 id="header2">KWITTER<sup>
+            <img id="img1" src="car.jpg">
+            </sup>
+            </h1>
+
+            <div id="output_div"></div>
+            </center>
+
+            <center>
+                <div id="tools">
+                    <br><br>
+                    <input type="text" id="msg" class="form-control" style="width: 70%">
+                    <br><br>
+                    <button id="sent" onclick="send()" class="btn btn-success">SEND</button>
+                
+                </div>
+            </center>
+            
+            <script src="kwitter.js"></script>
+            </body>
+            </html>

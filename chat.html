@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Kwitter Chat App</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body id="bg">
+        <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-warning">Logout</button>
+        <center>
+        <h1 id="header2">KWITTER<sup>
+            <img id="img1" src="car.jpg">
+            </sup>
+            </h1>
+            <div id="perm" class="col-lg-4 col-md-6 col-sm-6 col-xs-11">
+            <h2 id="name">Welcome </h2>
+            
+            <div id="temp" class="form-group">
+            <h3>Enter RoomName</h3>
+            <input type="text" placeholder="Enter RoomName" style="width:100%" id="roomname">
+            </div>
+            <button id="enter" class="btn btn-success" style="width:100%" onclick="addroom()">CLICK ENTER</button>
+
+            <div id="output"></div>
+ </div>
+ <h3 id="t">
+    Trending Room
+</h3>
+            </center>
+            <script src="room.js"></script>
+            </body>
+            
